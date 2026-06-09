@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Random Math Problem Generator</title>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+:root{
+--bg:#140f08;
+--panel:#2a1f12;
+--accent:#d8a54a;
+--text:#f7f0dd;
+}
+body{
+margin:0;
+background:linear-gradient(135deg,#140f08,#3b2814);
+color:var(--text);
+font-family:system-ui,sans-serif;
+}
+header{text-align:center;padding:1rem}
+.panel{
+margin:1rem;
+padding:1rem;
+border-radius:16px;
+background:rgba(255,255,255,.07);
+}
+select,button{
+padding:.6rem;
+border-radius:10px;
+border:none;
+margin:.2rem;
+}
+button{cursor:pointer;background:var(--accent);}
+.tabs{display:flex;flex-wrap:wrap;gap:.4rem}
+.question{display:none}
+.question.active{display:block}
+.tab.active{outline:2px solid white}
+@media(max-width:700px){
+.tabs{justify-content:center}
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>ତପନୀୟକ Problem Generator</h1>
+</header>
+
+<div class="panel">
+<select id="count">
+<option>1</option>
+<option>2</option>
+<option>5</option>
+<option>7</option>
+<option>10</option>
+</select>
+
+<select id="category">
+<option>Kalkulus</option>
+<option>Aljabar Linier</option>
+<option>Analisis Riil</option>
+<option>Analisis Kompleks</option>
+<option>Kombinatorika</option>
+<option>Struktur Aljabar</option>
+<option>Geometri</option>
+<option>Teori Bilangan</option>
+<option>Variasi</option>
+<option>Acak</option>
+</select>
+
+<button onclick="generate()">Generate Soal</button>
+</div>
+
+<div id="tabs" class="tabs"></div>
+<div id="content"></div>
+
+<script>
+const MAP={
+"Kalkulus":"calculus",
+"Aljabar Linier":"linear_algebra",
+"Analisis Riil":"real_analysis",
+"Analisis Kompleks":"complex_analysis",
+"Kombinatorika":"combinatorics",
+"Struktur Aljabar":"abstract_algebra",
+"Geometri":"geometry",
+"Teori Bilangan":"number_theory"
+};
+
+function shuffle(a){return [...a].sort(()=>Math.random()-0.5);}
+
+async function getRandomQuestion(folder, usedSet){
+ const idx=await fetch(`questions/${folder}/index.json`).then(r=>r.json());
+
+ let available=idx.files.filter(f=>!usedSet.has(folder+"/"+f));
+
+ if(!available.length){
+   available=idx.files;
+ }
+
+ const file=available[Math.floor(Math.random()*available.length)];
+ usedSet.add(folder+"/"+file);
+
+ return await fetch(`questions/${folder}/${file}`).then(r=>r.json());
+}
+
+function eligibleHints(q,state){
+ return q.hints.filter(h=>
+ !state.includes(h.id) &&
+ (!h.requires || h.requires.every(x=>state.includes(x)))
+ );
+}
+
+async function generate(){
+ const n=parseInt(document.getElementById("count").value);
+ const cat=document.getElementById("category").value;
+
+ let folders=[];
+
+ if(cat==="Variasi"){
+   if(n===5){
+      folders=shuffle(["linear_algebra","real_analysis","complex_analysis","combinatorics","abstract_algebra"]);
+   }else if(n===7){
+      folders=shuffle(["calculus","linear_algebra","real_analysis","complex_analysis","combinatorics","abstract_algebra",Math.random()<0.5?"geometry":"number_theory"]);
+   }else{
+      folders=shuffle(["calculus","linear_algebra","real_analysis","complex_analysis","combinatorics","abstract_algebra",Math.random()<0.5?"geometry":"number_theory"]);
+      const all=["calculus","linear_algebra","real_analysis","complex_analysis","combinatorics","abstract_algebra","geometry","number_theory","other"];
+      while(folders.length<n) folders.push(all[Math.floor(Math.random()*all.length)]);
+   }
+ }else if(cat==="Acak"){
+   const all=["calculus","linear_algebra","real_analysis","complex_analysis","combinatorics","abstract_algebra","geometry","number_theory","other"];
+   while(folders.length<n) folders.push(all[Math.floor(Math.random()*all.length)]);
+ }else{
+   folders=Array(n).fill(MAP[cat]);
+ }
+
+ const used=new Set();
+ tabs.innerHTML="";
+ content.innerHTML="";
+
+ for(let i=0;i<folders.length;i++){
+   const q=await getRandomQuestion(folders[i],used);
+
+   const btn=document.createElement("button");
+   btn.className="tab";
+   btn.textContent=i+1;
+   btn.onclick=()=>activate(i);
+   tabs.appendChild(btn);
+
+   const div=document.createElement("div");
+   div.className="question panel";
+   div.id="q"+i;
+
+   div.q=q;
+   div.shown=[];
+
+   div.innerHTML=`
+   <h3>Soal ${i+1}</h3>
+   <div>${q.problem}</div>
+   <div id="hint${i}"></div>
+   <div id="solution${i}"></div>
+   <button onclick="showHint(${i})">Hint</button>
+   <button onclick="showSolution(${i})">Solusi</button>
+   ${q.source?'<button onclick="showSource('+i+')">Sumber</button>':''}
+   `;
+
+   content.appendChild(div);
+ }
+
+ activate(0);
+ MathJax.typesetPromise();
+}
+
+function activate(i){
+ document.querySelectorAll('.question').forEach(x=>x.classList.remove('active'));
+ document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+ document.getElementById('q'+i).classList.add('active');
+ document.querySelectorAll('.tab')[i].classList.add('active');
+}
+
+function showHint(i){
+ const q=document.getElementById('q'+i);
+ const e=eligibleHints(q.q,q.shown);
+ if(!e.length) return;
+ const h=e[Math.floor(Math.random()*e.length)];
+ q.shown.push(h.id);
+ document.getElementById('hint'+i).innerHTML+=`<p>${h.text}</p>`;
+ MathJax.typesetPromise();
+}
+
+function showSolution(i){
+ const q=document.getElementById('q'+i);
+ document.getElementById('solution'+i).innerHTML='<hr>'+q.q.solution;
+ MathJax.typesetPromise();
+}
+
+function showSource(i){
+ const q=document.getElementById('q'+i);
+ alert(q.q.source);
+}
+</script>
+</body>
+</html>

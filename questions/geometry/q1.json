@@ -1,0 +1,27 @@
+{
+  "id": "template_0001",
+  "problem": "Buktikan bahwa $1+1=2$.",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Gunakan aksioma Peano."
+    },
+    {
+      "id": "h2",
+      "requires": [
+        "h1"
+      ],
+      "text": "Gunakan definisi suksesor."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h1"
+      ],
+      "text": "Gunakan definisi penjumlahan rekursif."
+    }
+  ],
+  "solution": "Dari definisi penjumlahan pada bilangan asli diperoleh $1+1=2$.",
+  "source": "Contoh Sumber",
+  "comment": "Catatan internal, tidak ditampilkan."
+}
