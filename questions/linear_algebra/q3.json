@@ -1,0 +1,20 @@
+{
+  "id": "lin_3",
+  "problem": "Jika \(A\) matriks berukuran \(3 \times 3\) dan polinom karakteristik \(A\) adalah \(p(\lambda)=\det (\lambda I-A)\) maka koefisien dari \(\lambda^2\) di \(p(\lambda)\) adalah ....",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "Tidak Diketahui",
+  "comment": "Seleksi Kampus 2017 Aljabar Linier No. 2"
+}
