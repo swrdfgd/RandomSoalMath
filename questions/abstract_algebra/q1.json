@@ -1,27 +1,20 @@
 {
-  "id": "template_0001",
-  "problem": "Buktikan bahwa $1+1=2$.",
+  "id": "abs_1",
+  "problem": "Diberikan dua grup \\(\\mathbb{Z}_9^\\times = \\left\\{1, 2, 4, 5, 7, 8 \\right\\}\\) terhadap operasi kali kongruen modulo 9 dan grup \\(\\mathbb{Z}_6 = \\left\\{0,1,2,3,4,5 \\right\\}\\) terhadap operasi tambah kongruen modulo 6. Buktikan bahwa kedua grup saling isomorf.",
   "hints": [
     {
       "id": "h1",
-      "text": "Gunakan aksioma Peano."
-    },
-    {
-      "id": "h2",
-      "requires": [
-        "h1"
-      ],
-      "text": "Gunakan definisi suksesor."
+      "text": "Belum ada hint."
     },
     {
       "id": "h3",
       "requires": [
-        "h1"
+        "h2"
       ],
-      "text": "Gunakan definisi penjumlahan rekursif."
+      "text": "kocong"
     }
   ],
-  "solution": "Dari definisi penjumlahan pada bilangan asli diperoleh $1+1=2$.",
-  "source": "Contoh Sumber",
-  "comment": "Catatan internal, tidak ditampilkan."
+  "solution": "Belum ada solusi.",
+  "source": "Tidak Diketahui",
+  "comment": "Seleksi Kampus 2011 Struktur Aljabar No. 1(b)"
 }

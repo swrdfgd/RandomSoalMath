@@ -1,0 +1,20 @@
+{
+  "id": "real_2",
+  "problem": "Berikan satu contoh barisan monoton turun yang konvergen ke 0. Tuliskan 2 subbarisan dari barisan tersebut. Apakah kedua subbarisan tersebut juga konvergen ke 0? Berikan alasan untuk jawaban Anda.",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "Tidak Diketahui",
+  "comment": "Seleksi Kampus 2011 Analisis Real No. 3"
+}
