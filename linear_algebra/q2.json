@@ -1,0 +1,20 @@
+{
+  "id": "lin_1",
+  "problem": "<p>Buktikan bahwa nilai mutlak dari \\(\\det \\left[ \\begin{matrix} u_1 & u_2 & u_3 \\\\ v_1 & v_2 & v_3 \\\\ w_1 & w_2 & w_3 \\end{matrix} \\right]\\\\) sama dengan volume dari parallelepiped di ruang 3 dimensi yang ditentukan oleh vektor \\(\textbf{u} = (u_1,u_2,u_3)\\), \\(\textbf{v} = (v_1,v_2,v_3)\\) dan \\(\textbf{w} = (w_1,w_2,w_3)\\).</p><img src='questions/linear_algebra/images/q2.png'>",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "Elementary Linear Algebra Howard Anton Theorem 3.5.4",
+  "comment": "Belum tambahkan solusi dan hint"
+}
