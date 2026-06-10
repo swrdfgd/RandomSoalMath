@@ -1,6 +1,6 @@
 {
   "id": "lin_1",
-  "problem": "<p>Buktikan bahwa nilai mutlak dari \\(\\det \\left[ \\begin{matrix} u_1 & u_2 \\\\ v_1 & v_2 \\end{matrix} \\right]\\) luas dari jajargenjang di ruang 2 dimensi yang ditentukan oleh vektor \\(\textbf{u} = (u_1,u_2)\\) dan \\(\textbf{v} = (v_1,v_2)\\).</p><img src='questions/linear_algebra/images/q1.png'>",
+  "problem": "<p>Buktikan bahwa nilai mutlak dari \\(\\det \\left[ \\begin{matrix} u_1 & u_2 \\\\ v_1 & v_2 \\end{matrix} \\right]\\) sama dengan luas dari jajargenjang di ruang 2 dimensi yang ditentukan oleh vektor \\(\\textbf{u} = (u_1,u_2)\\) dan \\(\\textbf{v} = (v_1,v_2)\\).</p><img src='questions/linear_algebra/images/q1.png'>",
   "hints": [
     {
       "id": "h1",

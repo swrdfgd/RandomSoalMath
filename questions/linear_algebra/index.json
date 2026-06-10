@@ -1,6 +1,7 @@
 {
-  "count": 1,
+  "count": 2,
   "files": [
-    "q1.json"
+    "q1.json",
+    "q2.json"
   ]
 }
