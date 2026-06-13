@@ -1,0 +1,20 @@
+{
+  "id": "abs_2",
+  "problem": "Buktikan bahwa dalam setiap gelanggang \\(G\\), hukum pembatalan berlaku jika dan hanya jika \\(G\\) tak memuat pembagi nol.",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "Tidak Diketahui",
+  "comment": "Seleksi Kampus 2011 Struktur Aljabar No. 3"
+}
