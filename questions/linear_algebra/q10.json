@@ -1,6 +1,6 @@
 {
-  "id": "lin_9",
-  "problem": "Sukubanyak karakteristik matriks \\( \\begin{bmatrix} 1 & -2 & 3 \\\\ 4 & 5 & -6 \\\\ -7 & 8 & 9 \\end{bmatrix} \\) adalah ....",
+  "id": "lin_10",
+  "problem": "Jika \\( A=\\begin{bmatrix} 2 & 1 \\\\ 1 & 2 \\end{bmatrix} \\), maka \\( A^{2006} \\) = ....",
   "hints": [
     {
       "id": "h1",
@@ -16,5 +16,5 @@
   ],
   "solution": "Belum ada solusi.",
   "source": "Tidak Diketahui",
-  "comment": "ONMIPA Wilayah 2026 Aljabar Linier No. 4"
+  "comment": "ONMIPA Wilayah 2026 Aljabar Linier No. 5"
 }
