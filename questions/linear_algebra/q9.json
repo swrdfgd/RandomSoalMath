@@ -1,0 +1,20 @@
+{
+  "id": "lin_9",
+  "problem": "Sukubanyak karakteristik matriks \\( \\begin{bmatrix} 1 & -2 & 3 \\\\ 4 & 5 & -6 \\\\ -7 & 8 & 9 \\end{bmatrix} \\) adalah ....",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "Tidak Diketahui",
+  "comment": "ONMIPA Wilayah 2026 Aljabar Linier No. 3"
+}

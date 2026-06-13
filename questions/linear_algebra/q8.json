@@ -1,0 +1,20 @@
+{
+  "id": "lin_8",
+  "problem": "Jika \\( T:\\mathbb{C}\\longrightarrow\\mathbb{C} \\) adalah pemetaan linier dan \\( x\\in\\mathbb{C} \\), maka \\( T(x) \\) = ....",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "Tidak Diketahui",
+  "comment": "ONMIPA Wilayah 2026 Aljabar Linier No. 3"
+}

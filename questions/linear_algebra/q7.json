@@ -1,0 +1,20 @@
+{
+  "id": "lin_7",
+  "problem": "Koordinat \\( x^2 \\) terhadap basis \\( \\{x^2+x,\\ x+1,\\ x^2+1\\} \\) di \\( P_2 \\) adalah ....",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "Tidak Diketahui",
+  "comment": "ONMIPA Wilayah 2026 Aljabar Linier No. 2"
+}

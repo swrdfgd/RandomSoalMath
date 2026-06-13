@@ -1,0 +1,20 @@
+{
+  "id": "lin_6",
+  "problem": "Jika \\( A \\) matriks berukuran \\( 1999 \\times 2006 \\), maka nilai minimal \\( \\operatorname{rank}(A) + \\operatorname{nolitas}(A) \\) adalah ....",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "Tidak Diketahui",
+  "comment": "ONMIPA Wilayah 2026 Aljabar Linier No. 1"
+}
