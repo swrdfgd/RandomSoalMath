@@ -1,27 +1,20 @@
 {
-  "id": "template_0001",
-  "problem": "Buktikan bahwa $1+1=2$.",
+  "id": "other_1",
+  "problem": "Selesaikan persamaan diferensial \\(y'-\\frac{\\cos 3x}{y} =0\\) dengan pemisahan variabel.",
   "hints": [
     {
       "id": "h1",
-      "text": "Gunakan aksioma Peano."
-    },
-    {
-      "id": "h2",
-      "requires": [
-        "h1"
-      ],
-      "text": "Gunakan definisi suksesor."
+      "text": "Belum ada hint."
     },
     {
       "id": "h3",
       "requires": [
-        "h1"
+        "h2"
       ],
-      "text": "Gunakan definisi penjumlahan rekursif."
+      "text": "kocong"
     }
   ],
-  "solution": "Dari definisi penjumlahan pada bilangan asli diperoleh $1+1=2$.",
-  "source": "Contoh Sumber",
-  "comment": "Catatan internal, tidak ditampilkan."
+  "solution": "Belum ada solusi.",
+  "source": "https://www.youtube.com/watch?v=kl0PUzDDkDY",
+  "comment": ""
 }
