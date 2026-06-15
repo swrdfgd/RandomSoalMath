@@ -1,6 +1,6 @@
 {
   "id": "lin_11",
-  "problem": "Diberikan bahwa \\( S\\subseteq\\mathbb R \\) tertutup dan \\( x\\notin S \\).\\nBuktikan bahwa terdapat \\( y\\in S \\) sedemikian sehingga\\n<div style=\"text-align:center\">\\( |y-x|=\\inf\\bigl(\\{|z-x|:z\\in S\\}\\bigr) \\)</div>",
+  "problem": "Misalkan \\( A \\) adalah matriks berukuran \\( n\\times n \\) sedemikian sehingga elemen-elemen pada diagonal bernilai positif, elemen-elemen lainnya bernilai negatif, dan hasil jumlah semua elemen pada setiap kolom adalah \\( 1 \\).\\nBuktikan bahwa \\( \\det(A)>1 \\).",
   "hints": [
     {
       "id": "h1",
