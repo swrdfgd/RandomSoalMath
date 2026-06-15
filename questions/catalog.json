@@ -1,11 +1,11 @@
 {
-  "abstract_algebra": 2,
+  "abstract_algebra": 3,
   "calculus": 1,
   "combinatorics": 1,
   "complex_analysis": 1,
   "geometry": 1,
-  "linear_algebra": 10,
+  "linear_algebra": 11,
   "number_theory": 1,
   "other": 1,
-  "real_analysis": 2
+  "real_analysis": 3
 }
