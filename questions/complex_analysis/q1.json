@@ -1,27 +1,20 @@
 {
-  "id": "template_0001",
-  "problem": "Buktikan bahwa $1+1=2$.",
+  "id": "comp_1",
+  "problem": "(a) Hitunglah\\n<div style=\"text-align:center\">\\( \\oint_{\\gamma}\\frac{\\sin z}{\\cos z}\\,dz \\)</div>\\ndimana \\( \\gamma \\) adalah lengkung batas kotak \\( -\\pi\\le\\operatorname{Im}(z)\\le\\pi \\) dan \\( 0\\le\\operatorname{Re}(z)\\le2N\\pi \\) dimana \\( N \\) adalah bilangan bulat positif.\\n\\n(b) Hitung juga\\n<div style=\"text-align:center\">\\( \\oint_{\\gamma}\\frac{\\sin z}{\\alpha+\\cos z}\\,dz \\)</div>\\ndimana \\( |z|<1 \\). Periksa semua ketaksamaan yang digunakan.",
   "hints": [
     {
       "id": "h1",
-      "text": "Gunakan aksioma Peano."
-    },
-    {
-      "id": "h2",
-      "requires": [
-        "h1"
-      ],
-      "text": "Gunakan definisi suksesor."
+      "text": "Belum ada hint."
     },
     {
       "id": "h3",
       "requires": [
-        "h1"
+        "h2"
       ],
-      "text": "Gunakan definisi penjumlahan rekursif."
+      "text": "kocong"
     }
   ],
-  "solution": "Dari definisi penjumlahan pada bilangan asli diperoleh $1+1=2$.",
-  "source": "Contoh Sumber",
-  "comment": "Catatan internal, tidak ditampilkan."
+  "solution": "Belum ada solusi.",
+  "source": "ONMIPA Nasional 2011 Hari 1 No. 2",
+  "comment": ""
 }
