@@ -1,6 +1,6 @@
 {
   "id": "lin_5",
-  "problem": "Misalkan himpunan \(\{v_1,v_2,v_3,v_4\}\) merupakan himpunan vektor yang bebas linier. Nilai \(k\) sehingga himpunan \(\{v_2-v_1,v_1+v_3,v_4-v_3,kv_4-v_2\}\) bebas linier adalah ....",
+  "problem": "Misalkan himpunan \\(\\{v_1,v_2,v_3,v_4\\}\\) merupakan himpunan vektor yang bebas linier. Nilai \\(k\\) sehingga himpunan \\(\\{v_2-v_1,v_1+v_3,v_4-v_3,kv_4-v_2\\}\\) bebas linier adalah ....",
   "hints": [
     {
       "id": "h1",
