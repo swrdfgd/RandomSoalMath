@@ -1,0 +1,20 @@
+{
+  "id": "real_4",
+  "problem": "Diberikan fungsi \\(f : \\mathbb{R} \\to \\mathbb{R}\\) sedemikian sehingga \\(\\lambda \\in [0, 1]\\) berlaku\\n<div style='text-align: center;'>\\(f(\\lambda x + (1 - \\lambda)y) \\leq \\lambda f(x) + (1 - \\lambda)f(y)\\)</div>\\nuntuk semua \\(x, y \\in \\mathbb{R}\\). Buktikan bahwa\\n<div style='text-align: center;'>\\(\\int_{0}^{2\\pi} f(x) \\cos x \\, dx \\geq 0\\)</div>",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "ONMIPA Nasional 2011 Hari 2 No. 1",
+  "comment": ""
+}
