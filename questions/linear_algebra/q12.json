@@ -1,0 +1,20 @@
+{
+  "id": "lin_12",
+  "problem": "Misalkan \\(V\\) adalah ruang vektor atas \\(\\mathbb{R}\\). Fungsi \\(f : V \\to \\mathbb{R}\\) meemnuhi sifat:\\n\\n(a) \\(f(v) \\geq 0\\) untuk \\(v \\in V\\) ,dan\\n(b) \\([f(u+w)]^2 + [f(u-w)]^2 = 2[f(u)]^2 + 2[f(w)]^2\\), untuk semua \\(u, v \\in V\\).\\n\\nBuktikan bahwa \\(f(u+w) \\leq f(u) + f(v)\\) , untuk semua \\(u, v \\in V\\)",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "ONMIPA Nasional 2011 Hari 2 No. 2",
+  "comment": ""
+}
