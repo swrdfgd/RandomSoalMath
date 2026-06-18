@@ -1,0 +1,20 @@
+{
+  "id": "comp_2",
+  "problem": "Diberikan fungsi \\(f : U \\to U\\) disebut sebagai biholomorfik jika \\(f\\) memiliki invers, dan \\(f\\) dan \\(f^{-1}\\) keduanya holomorfik atau analitik.\\n\\n(a) Buktikan bahwa jika \\(U = \\mathbb{C}\\), maka\\n<div style='text-align: center;'>\\(\\lim_{|z| \\to \\infty} |f(z)| = \\infty\\)</div>\\n\\n(b) Carilah bentuk umum dari \\(f(z)\\) dan jelaskan Argumen anda.",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "ONMIPA Nasional 2011 Hari 2 No. 4",
+  "comment": ""
+}
