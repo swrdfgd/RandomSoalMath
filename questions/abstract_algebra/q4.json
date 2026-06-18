@@ -1,0 +1,20 @@
+{
+  "id": "abs_4",
+  "problem": "Misalkan \\(R\\) adalah ring komutatif dan \\(R[x]\\) adalh polinomial terhadap ring \\(R\\). Untuk suatu polinomial \\(f(x) \\in R\\) , pandang ring faktor \\(\\frac{R[x]}{\\langle f(x) \\rangle}\\) , dan setiap elemen dari \\(\\frac{R[x]}{\\langle f(x) \\rangle}\\) ditulis sebagai \\(\\overline{p(x)}\\) dimana \\(p(x) \\in R[x]\\).\\n\\n(a) Buktikan bahwa \\(p(x)\\) dan \\(q(x)\\) dua polinomial berbeda derajad kurang dari \\(n\\), maka \\(p(x) \\neq q(x)\\).\\n\\n(b) Jika \\(a \\in R\\) adalah elemen nilpoten, dan \\(f(x) = x^n - a\\), maka \\(\\bar{x}\\) adalah elemen nilpoten di \\(\\frac{R[x]}{\\langle f(x) \\rangle}\\).",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "ONMIPA Nasional 2011 Hari 2 No. 3",
+  "comment": ""
+}
