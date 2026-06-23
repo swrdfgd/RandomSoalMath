@@ -14,7 +14,7 @@
       "text": "kocong"
     }
   ],
-  "solution": "Belum ada solusi.",
+  "solution": "L.H.S. = \\( \\cos 5x \\)\\n \\( = \\cos (2x + 3x) \\)\\n \\( = \\cos 2x \\cos 3x - \\sin 2x \\sin 3x \\)\\n \\( = (2\\cos^2 x - 1)(4\\cos^3 x - 3\\cos x) - 2\\sin x\\cos x(3\\sin x - 4\\sin^3 x) \\)\\n \\( = 8\\cos^5 x - 10\\cos^3 x + 3\\cos x - 6\\cos x\\sin^2 x + 8\\cos x\\sin^4 x \\)\\n \\( = 8\\cos^5 x - 10\\cos^3 x + 3\\cos x - 6\\cos x(1-\\cos^2 x) + 8\\cos x(1-\\cos^2 x)^2 \\)\\n \\( = 8\\cos^5 x - 10\\cos^3 x + 3\\cos x - 6\\cos x + 6\\cos^3 x + 8\\cos x - 16\\cos^3 x + 8\\cos^5 x \\)\\n \\( = 16\\cos^5 x - 20\\cos^3 x + 5\\cos x \\)",
   "source": "https://www.math-only-math.com/multiple-angle-formulae.html Problem 1",
   "comment": ""
 }
