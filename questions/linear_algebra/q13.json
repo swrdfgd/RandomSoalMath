@@ -1,0 +1,20 @@
+{
+  "id": "lin_13",
+  "problem": "Diketahui bahwa vektor \\(\\vec{a}\\) dan \\(\\vec{b}\\) saling bebas linear, serta \\(2\\vec{a}+y\\vec{b}=x\\vec{a}-3\\vec{b}\\), maka \\(\\; (\\;)\\)\\nA. \\(x=2,\\; y=-3\\)\\nB. \\(x=-2,\\; y=3\\)\\nC. \\(x=2,\\; y=3\\)\\nD. \\(x=-2,\\; y=-3\\)",
+  "hints": [
+    {
+      "id": "h1",
+      "text": "Belum ada hint."
+    },
+    {
+      "id": "h3",
+      "requires": [
+        "h2"
+      ],
+      "text": "kocong"
+    }
+  ],
+  "solution": "Belum ada solusi.",
+  "source": "Chines Gao Kao 2026 Multi-Choice No. 2 (https://www.youtube.com/watch?v=0nX-S67ziXw)",
+  "comment": ""
+}
